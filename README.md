@@ -8,5 +8,5 @@ It's the gRPC hello world application. The example code is from [grpc/grpc](http
 Start the gRPC client.
 
 ```
-docker run -e ADDRESS=hello-world-server -e PORT=50051
+docker run -e ADDRESS=hello-world-server -e PORT=50051 mbchristoff/grpc-hello-world
 ```
